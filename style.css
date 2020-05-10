@@ -1,0 +1,53 @@
+* {
+    margin:0;
+    padding: 0;
+}
+.wrapper {
+    margin:10px 80px;
+    transition: 0.3s linear;
+}
+
+.wrapper.show {
+    padding-left: 300px;
+}
+
+
+.burger {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    font-size: 40px;
+    line-height: 50px;
+    transition: 0.3s linear;
+}
+
+.burger:hover {
+cursor: pointer;
+/* transform: rotate(405deg); */
+
+}
+
+
+aside {
+position: absolute;
+top: 0;
+bottom: 0;
+left: -300px;
+width: 300px;
+background-color: cadetblue;
+transition: 0.3s linear;
+
+}
+
+
+aside.show {
+    left: 0;
+}
+.fas {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
